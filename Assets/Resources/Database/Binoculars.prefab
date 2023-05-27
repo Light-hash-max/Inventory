@@ -1,0 +1,231 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &217842874662089516
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 217842874662089680}
+  - component: {fileID: 217842874662089519}
+  - component: {fileID: 217842874662089518}
+  - component: {fileID: 217842874662089517}
+  - component: {fileID: 217842874662089684}
+  - component: {fileID: 217842874662089683}
+  - component: {fileID: 217842874662089682}
+  - component: {fileID: 217842874662089681}
+  - component: {fileID: -6704884246802488310}
+  m_Layer: 6
+  m_Name: Binoculars
+  m_TagString: Solid
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &217842874662089680
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 217842874662089516}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.3090326, y: 0.136, z: -2.6627486}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &217842874662089519
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 217842874662089516}
+  m_Mesh: {fileID: 1187292857202364892, guid: 8c4c77b67a9078945a6e00dcae8e3f9e, type: 3}
+--- !u!23 &217842874662089518
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 217842874662089516}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 4c565aeae6613294295b9f7aa22bbcb0, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &217842874662089517
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 217842874662089516}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1187292857202364892, guid: 8c4c77b67a9078945a6e00dcae8e3f9e, type: 3}
+--- !u!54 &217842874662089684
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 217842874662089516}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 2
+--- !u!114 &217842874662089683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 217842874662089516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b4d5eed0b9cbe746ad158233d4979de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _openOnce: 0
+  _openAtStart: 0
+  _openAfterUnlocking: 0
+  _lockedAtStart: 0
+  _unlockOnce: 0
+  _delayAfterUnlock: 0
+  _itemIdRequiredToUnlock:
+    Id: 
+  _requiredInteractionsToUnlock: []
+  _isInteractable: 1
+  _isOpen:
+    Guid: 8c3b2e90-75a4-4396-8415-4251804c29b6
+    Value: 0
+    IsSave: 1
+  _isLocked:
+    Guid: c806fc48-8c0b-4d1b-b0ee-38d985e50193
+    Value: 0
+    IsSave: 1
+  _hasOpened:
+    Guid: d1172d85-8a94-4ba0-b064-319c2c05e3dc
+    Value: 0
+    IsSave: 1
+  _hasUnlocked:
+    Guid: cca8b98a-5546-4315-9765-cc0dee53c007
+    Value: 0
+    IsSave: 1
+  DebugUnlocked: 1
+  DebugOpened: 0
+--- !u!114 &217842874662089682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 217842874662089516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcf4e7fbf2c09d24a90b87e8f2a6171a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveableParameters:
+    Guid: f3a031d9-04ee-4dbb-a98e-efe9c5038901
+    Position:
+      Guid: ca4a60f3-37c9-44b9-abdf-73bccc0e35fc
+      Value: {x: 0, y: 0, z: 0}
+      IsSave: 1
+    Rotation:
+      Guid: 61b53467-b4f8-463c-8c9c-657ed5f42601
+      Value: {x: 0, y: 0, z: 0, w: 0}
+      IsSave: 1
+    IsActive:
+      Guid: 280266ae-ae60-4b9a-8bb9-2d8dbf193d1e
+      Value: 0
+      IsSave: 1
+    IsEnabled:
+      Guid: c0a0c430-2850-4b6b-ae9d-61ff2be38d62
+      Value: 0
+      IsSave: 1
+    IsParented:
+      Guid: 0eb6630e-e9f5-4b04-bbe3-8a43c235e0f0
+      Value: 0
+      IsSave: 1
+    WasDestroyed:
+      Guid: 0c44bb4c-efe0-464e-ba19-ebc4a36f78ad
+      Value: 0
+      IsSave: 1
+--- !u!114 &217842874662089681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 217842874662089516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a56b9b2fbbdccb94f9c946018a2e63c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: Binoculars
+  itemName: Binoculars
+  inventoryIcon: {fileID: 21300000, guid: 19db320eb5122c64f90e4134e5187dec, type: 3}
+  usageCount:
+    Guid: fbf7440e-bccb-4abc-8009-c6386129b8b1
+    Value: -1
+    IsSave: 1
+--- !u!114 &-6704884246802488310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 217842874662089516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0abafe3aaa00c2a46a7e77c55b160115, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 1

@@ -1,0 +1,231 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5152588317759888983
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8645207734513104665}
+  - component: {fileID: 5453431254569074954}
+  - component: {fileID: 976918665742037849}
+  - component: {fileID: 5152588317759888984}
+  - component: {fileID: 5152588317759888988}
+  - component: {fileID: 5152588317759888987}
+  - component: {fileID: 5152588317759888986}
+  - component: {fileID: 5152588317759888985}
+  - component: {fileID: -6624495647857509320}
+  m_Layer: 0
+  m_Name: Shovel_Handle
+  m_TagString: Solid
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8645207734513104665
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5152588317759888983}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.912781, y: 0.078, z: -2.042257}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &5453431254569074954
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5152588317759888983}
+  m_Mesh: {fileID: 2938889127594003496, guid: 8c4c77b67a9078945a6e00dcae8e3f9e, type: 3}
+--- !u!23 &976918665742037849
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5152588317759888983}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 218438adc971010439b1066f3cc40323, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5152588317759888984
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5152588317759888983}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2938889127594003496, guid: 8c4c77b67a9078945a6e00dcae8e3f9e, type: 3}
+--- !u!54 &5152588317759888988
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5152588317759888983}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 2
+--- !u!114 &5152588317759888987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5152588317759888983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b4d5eed0b9cbe746ad158233d4979de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _openOnce: 0
+  _openAtStart: 0
+  _openAfterUnlocking: 0
+  _lockedAtStart: 0
+  _unlockOnce: 0
+  _delayAfterUnlock: 0
+  _itemIdRequiredToUnlock:
+    Id: 
+  _requiredInteractionsToUnlock: []
+  _isInteractable: 1
+  _isOpen:
+    Guid: 976d2270-36af-4f80-80dc-e691ce009982
+    Value: 0
+    IsSave: 1
+  _isLocked:
+    Guid: 6868e57a-2e49-4670-a934-dd3ebe741495
+    Value: 0
+    IsSave: 1
+  _hasOpened:
+    Guid: 403f82ae-655e-499c-a78a-a38298bba797
+    Value: 0
+    IsSave: 1
+  _hasUnlocked:
+    Guid: 3f4dd9e2-c15f-4dd0-87bd-8783600d59ae
+    Value: 0
+    IsSave: 1
+  DebugUnlocked: 1
+  DebugOpened: 0
+--- !u!114 &5152588317759888986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5152588317759888983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcf4e7fbf2c09d24a90b87e8f2a6171a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveableParameters:
+    Guid: e356c4e1-c9fc-4883-801b-75e231ca445c
+    Position:
+      Guid: d8956707-1cc4-4921-8943-8ec7f1f46e33
+      Value: {x: 0, y: 0, z: 0}
+      IsSave: 1
+    Rotation:
+      Guid: c0095ca6-7c0f-4d4d-b55d-eaa74c6df21f
+      Value: {x: 0, y: 0, z: 0, w: 0}
+      IsSave: 1
+    IsActive:
+      Guid: 37964130-1d5c-43b0-8803-5470f562d9bb
+      Value: 0
+      IsSave: 1
+    IsEnabled:
+      Guid: 8876aec1-6d14-4590-9165-c01481302301
+      Value: 0
+      IsSave: 1
+    IsParented:
+      Guid: 58b7d5d6-cf0f-4d5d-9cfd-9980d41986a1
+      Value: 0
+      IsSave: 1
+    WasDestroyed:
+      Guid: e5e00f9c-1508-4019-bdf7-2e782efcc818
+      Value: 0
+      IsSave: 1
+--- !u!114 &5152588317759888985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5152588317759888983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a56b9b2fbbdccb94f9c946018a2e63c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: Shovel Handle
+  itemName: Shovel Handle
+  inventoryIcon: {fileID: 21300000, guid: 40811b58616dcee488c3da61f79e18e4, type: 3}
+  usageCount:
+    Guid: 41ce595a-e2a4-4573-b2c3-682137666ecc
+    Value: -1
+    IsSave: 1
+--- !u!114 &-6624495647857509320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5152588317759888983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0abafe3aaa00c2a46a7e77c55b160115, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 1
